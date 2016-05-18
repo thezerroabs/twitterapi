@@ -14,6 +14,13 @@
 		4E10F0001CE5C04D006D5EF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E10EFFE1CE5C04D006D5EF3 /* LaunchScreen.storyboard */; };
 		4E10F00B1CE5C04D006D5EF3 /* lalalaTwitterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E10F00A1CE5C04D006D5EF3 /* lalalaTwitterTests.swift */; };
 		4E10F0161CE5C04D006D5EF3 /* lalalaTwitterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E10F0151CE5C04D006D5EF3 /* lalalaTwitterUITests.swift */; };
+		4E10F0281CE5DD17006D5EF3 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E10F0241CE5DD17006D5EF3 /* Fabric.framework */; };
+		4E10F0291CE5DD17006D5EF3 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E10F0251CE5DD17006D5EF3 /* TwitterKit.framework */; };
+		4E10F02A1CE5DD17006D5EF3 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4E10F0261CE5DD17006D5EF3 /* TwitterKitResources.bundle */; };
+		4E10F02B1CE5DD17006D5EF3 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E10F0271CE5DD17006D5EF3 /* TwitterCore.framework */; };
+		4E10F02D1CE5E4FD006D5EF3 /* TweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E10F02C1CE5E4FD006D5EF3 /* TweetViewController.swift */; };
+		4EE597A91CEB599000F038D2 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE597A81CEB599000F038D2 /* Globals.swift */; };
+		8A6A8BA72B033F7392D4CCD8 /* Pods_lalalaTwitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B5CC4279815EBDCE8B4BEF /* Pods_lalalaTwitter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3075EBE25F6395A2EC3AB697 /* Pods-lalalaTwitter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lalalaTwitter.release.xcconfig"; path = "Pods/Target Support Files/Pods-lalalaTwitter/Pods-lalalaTwitter.release.xcconfig"; sourceTree = "<group>"; };
 		4E10EFF21CE5C04D006D5EF3 /* lalalaTwitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lalalaTwitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E10EFF51CE5C04D006D5EF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E10EFF71CE5C04D006D5EF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,14 @@
 		4E10F0111CE5C04D006D5EF3 /* lalalaTwitterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lalalaTwitterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E10F0151CE5C04D006D5EF3 /* lalalaTwitterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lalalaTwitterUITests.swift; sourceTree = "<group>"; };
 		4E10F0171CE5C04D006D5EF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E10F0241CE5DD17006D5EF3 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		4E10F0251CE5DD17006D5EF3 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		4E10F0261CE5DD17006D5EF3 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		4E10F0271CE5DD17006D5EF3 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		4E10F02C1CE5E4FD006D5EF3 /* TweetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetViewController.swift; sourceTree = "<group>"; };
+		4EE597A81CEB599000F038D2 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		77FB37501A50447C2FD6C4DB /* Pods-lalalaTwitter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lalalaTwitter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lalalaTwitter/Pods-lalalaTwitter.debug.xcconfig"; sourceTree = "<group>"; };
+		C4B5CC4279815EBDCE8B4BEF /* Pods_lalalaTwitter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lalalaTwitter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E10F0281CE5DD17006D5EF3 /* Fabric.framework in Frameworks */,
+				4E10F02B1CE5DD17006D5EF3 /* TwitterCore.framework in Frameworks */,
+				4E10F0291CE5DD17006D5EF3 /* TwitterKit.framework in Frameworks */,
+				8A6A8BA72B033F7392D4CCD8 /* Pods_lalalaTwitter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +101,12 @@
 				4E10F0091CE5C04D006D5EF3 /* lalalaTwitterTests */,
 				4E10F0141CE5C04D006D5EF3 /* lalalaTwitterUITests */,
 				4E10EFF31CE5C04D006D5EF3 /* Products */,
+				4E10F0241CE5DD17006D5EF3 /* Fabric.framework */,
+				4E10F0251CE5DD17006D5EF3 /* TwitterKit.framework */,
+				4E10F0261CE5DD17006D5EF3 /* TwitterKitResources.bundle */,
+				4E10F0271CE5DD17006D5EF3 /* TwitterCore.framework */,
+				8C7436DF0412F1A8E3E618BE /* Pods */,
+				5481C0BD0BDFCE3E0ADDB4FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +123,10 @@
 		4E10EFF41CE5C04D006D5EF3 /* lalalaTwitter */ = {
 			isa = PBXGroup;
 			children = (
+				4EE597A81CEB599000F038D2 /* Globals.swift */,
 				4E10EFF51CE5C04D006D5EF3 /* AppDelegate.swift */,
 				4E10EFF71CE5C04D006D5EF3 /* ViewController.swift */,
+				4E10F02C1CE5E4FD006D5EF3 /* TweetViewController.swift */,
 				4E10EFF91CE5C04D006D5EF3 /* Main.storyboard */,
 				4E10EFFC1CE5C04D006D5EF3 /* Assets.xcassets */,
 				4E10EFFE1CE5C04D006D5EF3 /* LaunchScreen.storyboard */,
@@ -125,6 +153,23 @@
 			path = lalalaTwitterUITests;
 			sourceTree = "<group>";
 		};
+		5481C0BD0BDFCE3E0ADDB4FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4B5CC4279815EBDCE8B4BEF /* Pods_lalalaTwitter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C7436DF0412F1A8E3E618BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77FB37501A50447C2FD6C4DB /* Pods-lalalaTwitter.debug.xcconfig */,
+				3075EBE25F6395A2EC3AB697 /* Pods-lalalaTwitter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +177,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E10F01A1CE5C04D006D5EF3 /* Build configuration list for PBXNativeTarget "lalalaTwitter" */;
 			buildPhases = (
+				AD540123CC882D475A462D01 /* 📦 Check Pods Manifest.lock */,
 				4E10EFEE1CE5C04D006D5EF3 /* Sources */,
 				4E10EFEF1CE5C04D006D5EF3 /* Frameworks */,
 				4E10EFF01CE5C04D006D5EF3 /* Resources */,
+				4E10F0231CE5DCD0006D5EF3 /* ShellScript */,
+				7BC98309DBD25A53F3C418F5 /* 📦 Embed Pods Frameworks */,
+				996F5C48395CA50E20F309A9 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,6 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E10F02A1CE5DD17006D5EF3 /* TwitterKitResources.bundle in Resources */,
 				4E10F0001CE5C04D006D5EF3 /* LaunchScreen.storyboard in Resources */,
 				4E10EFFD1CE5C04D006D5EF3 /* Assets.xcassets in Resources */,
 				4E10EFFB1CE5C04D006D5EF3 /* Main.storyboard in Resources */,
@@ -251,13 +301,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4E10F0231CE5DCD0006D5EF3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 667e38e7e80998eb3b26369a4924e8b7a0c27093 44a053f4128b3c3ecac0d10c00a2211f839fe5038a1f32440fbeb4e6f87a99c5";
+		};
+		7BC98309DBD25A53F3C418F5 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lalalaTwitter/Pods-lalalaTwitter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		996F5C48395CA50E20F309A9 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lalalaTwitter/Pods-lalalaTwitter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD540123CC882D475A462D01 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4E10EFEE1CE5C04D006D5EF3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EE597A91CEB599000F038D2 /* Globals.swift in Sources */,
 				4E10EFF81CE5C04D006D5EF3 /* ViewController.swift in Sources */,
 				4E10EFF61CE5C04D006D5EF3 /* AppDelegate.swift in Sources */,
+				4E10F02D1CE5E4FD006D5EF3 /* TweetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,8 +508,13 @@
 		};
 		4E10F01B1CE5C04D006D5EF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77FB37501A50447C2FD6C4DB /* Pods-lalalaTwitter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = lalalaTwitter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cata.lalalaTwitter;
@@ -406,8 +524,13 @@
 		};
 		4E10F01C1CE5C04D006D5EF3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3075EBE25F6395A2EC3AB697 /* Pods-lalalaTwitter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = lalalaTwitter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cata.lalalaTwitter;
@@ -482,6 +605,7 @@
 				4E10F01C1CE5C04D006D5EF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E10F01D1CE5C04D006D5EF3 /* Build configuration list for PBXNativeTarget "lalalaTwitterTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +614,7 @@
 				4E10F01F1CE5C04D006D5EF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E10F0201CE5C04D006D5EF3 /* Build configuration list for PBXNativeTarget "lalalaTwitterUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +623,7 @@
 				4E10F0221CE5C04D006D5EF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
